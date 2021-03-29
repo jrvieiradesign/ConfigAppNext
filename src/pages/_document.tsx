@@ -1,6 +1,6 @@
-
-import Document, { DocumentContext, DocumentInitialProps, Html, Main, NextScript } from 'next/document'
-import Head from 'next/head'
+import React from 'react'
+// import Head from 'next/head'
+import Document, { DocumentContext, DocumentInitialProps, Html, Main, NextScript, Head } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
 
           <link href="https://rocketseat.com.br/favicon.ico" rel="icon"/>
 
-        </Head>
+        </ Head>
         <body>
           <Main />
           <NextScript />
